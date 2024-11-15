@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CRUD OPERATION</title>
+    <link rel="stylesheet" href="/crud operation/css/crud.css">
+</head>
+<body>
+    <div class="container">
+        <div class="box">
+            <h2>Create User</h2>
+            <input type="text" id="name" placeholder="Enter your name">
+            <input type="number" id="age" placeholder="Enter your age">
+            <input type="submit" id="createbtn">
+            
+
+        </div>
+        <div class="box">
+            <h2>Create User</h2>
+            <input type="number" id="update-id" placeholder="Enter your id">
+            <input type="text" id="update-name" placeholder="Enter your name">
+            <input type="number" id="update-age" placeholder="Enter your age">
+            <input type="submit" id="updatebtn">
+        </div>
+        <table border="1">
+            <thead>
+                <th>id</th>
+                <th>name</th>
+                <th>age</th>
+                <th>action</th>
+            </thead>
+            <tbody id="user-list">
+
+            </tbody>
+           
+           
+        </table>
+    </div>
+   
+        
+</body>
+ <script src="/crud operation/javascript/crud.js"></script>
+
+</html>
